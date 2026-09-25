@@ -847,3 +847,34 @@ When the active project queue is complete and Braided Language becomes the focus
 4. Begin at BL-00 if no implementation exists.
 5. Otherwise continue from the first unmet acceptance gate.
 6. Preserve marine/two-way communication as the project's core identity.
+
+
+---
+
+## BL-25 — AR Glasses Translation Lens
+
+Braided Language is the translation provider for the future Terminator New Lens / Lens OS wearable shell.
+
+```text
+glasses microphone / OCR
+↓
+Braided Language
+↓
+language detection + Braided Representation
+↓
+translated text / speech
+↓
+AR subtitle anchored near the source
+```
+
+Support:
+- live speech subtitles;
+- visible-text translation;
+- conversation mode;
+- transliteration;
+- offline packs where practical;
+- local/cloud processing indicator.
+
+Braided Language does **not** own the glasses camera runtime. Terminator New Lens owns the wearable shell and requests translation through a stable interface.
+
+See `Terminator-New-Lens/docs/AR_GLASSES_ROADMAP.md` for the cross-project wearable architecture.
