@@ -25,6 +25,10 @@ Human translation is the controlled proving ground. Marine communication is the 
 - Braided Glyphs / mirror-readable visual language
 - future AR, game, and unknown-signal adapters
 
+## Human Language Pack
+
+The Google-Translate-style human translation subsystem is specified in [`docs/LANGUAGE_PACK_PLAN.md`](docs/LANGUAGE_PACK_PLAN.md). It covers text, speech, conversation mode, downloadable/offline packs, transliteration, translation memory, Android-first mobile UI, and the bridge into Braided Representation.
+
 ## Scientific boundary
 
 For non-human communication, the project distinguishes:
