@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title>Braided Language logo</title>
+<desc>Interwoven blue and gold infinity-wave symbol around Earth with Braided Language wordmark.</desc>
+<defs>
+  <linearGradient id="blue" x1="0" x2="1"><stop stop-color="#19d7ff"/><stop offset="1" stop-color="#365bff"/></linearGradient>
+  <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#ffcf62"/><stop offset="1" stop-color="#d99016"/></linearGradient>
+  <radialGradient id="earth"><stop stop-color="#8be7ff"/><stop offset=".55" stop-color="#1777d8"/><stop offset="1" stop-color="#071b52"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="420" rx="34" fill="#07111f"/>
+<g transform="translate(600 135)" fill="none" stroke-linecap="round" stroke-width="30" filter="url(#glow)">
+  <path d="M-280 0 C-220-115,-90-115,0 0 C90 115,220 115,280 0 C220-115,90-115,0 0 C-90 115,-220 115,-280 0" stroke="url(#blue)"/>
+  <path d="M-280 0 C-220 115,-90 115,0 0 C90-115,220-115,280 0 C220 115,90 115,0 0 C-90-115,-220-115,-280 0" stroke="url(#gold)" opacity=".96"/>
+</g>
+<circle cx="600" cy="135" r="56" fill="url(#earth)" stroke="#bdefff" stroke-width="4"/>
+<path d="M555 132 C578 118,596 145,616 126 C635 109,650 128,668 120" fill="none" stroke="#9fe36f" stroke-width="8" opacity=".85"/>
+<g stroke="#e7fbff" stroke-width="5" opacity=".9">
+  <path d="M450 136 h35 l12-25 20 50 18-35 18 20 h35"/>
+  <path d="M650 136 h35 l15-35 20 60 18-45 16 20 h35"/>
+</g>
+<text x="600" y="290" text-anchor="middle" fill="#eef7ff" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="76" letter-spacing="8">BRAIDED LANGUAGE</text>
+<text x="600" y="350" text-anchor="middle" fill="#9fcfff" font-family="Arial,Helvetica,sans-serif" font-size="28" letter-spacing="7">ONE WORLD • EVERY VOICE • NO BARRIERS</text>
+</svg>
