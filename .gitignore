@@ -1,0 +1,43 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+
+# Private/local data
+data/private/
+datasets/private/
+recordings/
+audio/private/
+video/private/
+models/private/
+*.wav
+*.flac
+*.mp3
+*.mp4
+
+# Model weights
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated
+outputs/
+cache/
+logs/
